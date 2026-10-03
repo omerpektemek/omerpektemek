@@ -1,4 +1,4 @@
-const CACHE = 'elektrik-yuk-hesabi-v1';
+const CACHE = 'elektrik-yuk-hesabi-v2';
 const FILES = [
   './',
   './index.html',
@@ -35,4 +35,3 @@ self.addEventListener('fetch', event => {
   }
   event.respondWith(caches.match(request).then(cached => cached || fetch(request)));
 });
-
