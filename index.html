@@ -360,7 +360,7 @@ function lbCalc(w,h){
   return {side, compat, perRow, leds:perRow*2};
 }
 function lbPlan(leds){           // kutu başına 24V trafo planı
-  let t200=Math.floor(leds/8); const r=leds%8; let t100=0;
+  let t200=Math.floor(leds/12); const r=leds%12; let t100=0;
   if(r>0){ if(r<=4) t100=1; else t200+=1; }
   return {t100,t200};
 }
