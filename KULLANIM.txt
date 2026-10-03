@@ -1,0 +1,10 @@
+Elektrik Yük Hesabı — telefon ve web sürümü
+
+Bu klasör, statik web uygulamasıdır. İçindeki bütün dosyaları birlikte HTTPS destekleyen bir web sunucusuna yükleyin; kullanıcılar verilen site bağlantısını telefonlarında açabilir. Ana ekrana uygulama olarak eklenebilmesi ve çevrimdışı önbelleğin çalışması için HTTPS gereklidir (localhost geliştirme için istisnadır).
+
+Telefon:
+- Android: Siteyi Chrome'da açın; menüdeki “Uygulamayı yükle” veya “Ana ekrana ekle” seçeneğini kullanın.
+- iPhone: Siteyi Safari'de açın; Paylaş menüsünden “Ana Ekrana Ekle”yi seçin. İstenirse “Web Uygulaması Olarak Aç”ı etkinleştirin.
+
+Excel hesaplama kütüphanesi paket içindedir. İlk çevrimiçi açılıştan sonra uygulama önbelleğe alınan dosyalarla internet olmadan da açılabilir.
+
